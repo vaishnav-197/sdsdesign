@@ -1,2 +1,2 @@
 # sdsdesign
-this is a website design for studdevsoc.com
+this is a website design for studevsoc.com
