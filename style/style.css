@@ -30,13 +30,30 @@ html,body{
     text-align: center;
     vertical-align: middle;
     color: white;
+    text-shadow: 0px 0px 8px black;
+}
+.landing-text h1{
+    font-size: 350%;
+    font-weight:700 ;
+}
+
+#fixed{
+    background: url(./img/group.jpg) no-repeat center center fixed  ;
+    display: table;
+    height: 50%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
 }
 
 
-
+#about{
+               
+}
 
 #home {
-    background: url(./img/team.jpg) no-repeat center center fixed  ;
+    background: url(./img/maclarge.jpg) no-repeat center center fixed  ;
     display: table;
     height: 100%;
     position: relative;
@@ -44,3 +61,15 @@ html,body{
     background-size: cover;
 }
 
+footer {
+    width: 100%;
+    background-color: #23415c;
+    padding: 5pt 5pt 20pt 5pt;
+
+}
+
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF
+}
