@@ -1,0 +1,46 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 1% 0;
+    font-size: 1.2em;
+
+}
+
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+.nav-link{
+    color: #d5d5d5;
+}
+ .nav-item :hover {
+    color:#fff;
+}
+
+
+
+
+.landing-text{
+    display: table-row;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+
+
+
+#home {
+    background: url(./img/team.jpg) no-repeat center center fixed  ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
