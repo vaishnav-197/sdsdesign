@@ -86,7 +86,7 @@ img {
     text-align: right !important;
     right: 60px !important;
     left: auto !important;
-    top: 160px !important;
+    top: 10vh !important;
 }
 
 
@@ -118,9 +118,49 @@ h1.head{
 }
 
 h4.weare{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    color: darkblue;
 }
+h2.weare{
+    font-family: 'Roboto Slab', serif;
+}
+
 
 p.weare1{
     font-family: 'Crimson Text', serif;
+    font-weight: bolder;
+    color: darkred;
+}
+
+
+p.weare{
+    font-family: 'Crimson Text', serif;
+    color: rgb(6, 0, 88);
+    font-weight: bold;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-custom {
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #bb3b85;
+    margin-top: 20px;
+    padding: 10px 16px;
+    
 }

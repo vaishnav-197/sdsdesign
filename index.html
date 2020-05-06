@@ -18,7 +18,9 @@
      <!-- google font -->
      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Pacifico&display=swap" rel="stylesheet">
-  </head>
+     <!-- animate.css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
   
   
   
@@ -50,7 +52,7 @@
             </ul>
           </div>
         </nav>
-          <div class="landing-text text-center" >
+          <div class="landing-text text-center animated  fadeInUp delay-2s" >
               <h4>welcome to</h4>
               <h1 class="head">STUDENT DEVELOPER SOCIETY</h1>
               
@@ -59,10 +61,10 @@
           </div>  
       </div>
 
-      <div class="padding" id="about">
+      <div class="padding " id="about">
           <div class="container pt-5 pb-5">
              <div class="landing text-center" style="padding-top: 20px;">
-              <h2 style="font-weight: 800;"> <i class="fas fa-atlas"></i>  Who We Are</h2>
+              <h2 style="font-weight: 800; font-family: 'Roboto Slab', serif;"> <i class="fas fa-atlas"></i>  Who We Are</h2>
               <hr>
              </div>
               <div class="row" id="about"> 
@@ -122,7 +124,7 @@
       </div>
        
       
-      <div class="events" id="#events">
+      <div class="events animated  zoomIn delay-8s" id="#events">
         <div class="landing text-center" style="padding-top: 20px;">
           <h2  style="font-weight: 800;">Our Initiatives</h2>
           <p class="weare1">We are a learner first community where we enable more students to become technology learners and makers. These are a few of the initiatives we do to support more students to learn technology</p>
@@ -176,10 +178,46 @@
           </div>
         </div>
       </section>
+      <div class="sectionTitle text-center p-5">
+        <h2 class="weare">GET IN TOUCH</h2>
+        <hr>
+        <p>Feel free to drop us a message anytime.</p>
+    </div>
+    <div class="container-fluid   text-dark">
+      <div class="row justify-content-center align-items-center">
+           
+      </div>
+      
+      <div class="row justify-content-center align-items-center h-10">
+        <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <form action="">
+            
+            <div class="form-group" style="margin-left: 10px ;">
+              <input type="text" class="form-control" placeholder="name" required/>
+            </div>
+            <div class="form-group" style="margin-left: 10px ;">
+              <input type="email" class="form-control" placeholder="email" required/>
+            </div>
+            
+            <div class="form-group">
+              <div class="container">
+                <div class="row">
+                  
+                  <div class="col"><button class="col-6 btn btn-primary btn-sm " style="margin-left: 10vh; margin-bottom: -1vh;">Send</button></div>
+                </div>
+              </div>
+            </div>
+            <hr>
+     
+          </form>
+        </div>
+      </div>
+    </div>
+    
 
       <div class="contact" id="contact">
 
-      <div class="landing text-center" style="padding-top: 200px; padding-bottom: 100px;">
+      <div class="landing text-center" style="padding-top: 90px; padding-bottom: 100px;">
         <h2  style="font-weight: 800;">Connect With Us</h2>
         <hr>        
          
@@ -206,6 +244,8 @@
       ScrollReveal().reveal('.landing-text', {duration:2000});
       ScrollReveal().reveal('.padding', {duration:2000});
       ScrollReveal().reveal('.contact',{duration:2500});
+
+      
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
