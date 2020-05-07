@@ -138,6 +138,10 @@ p.weare{
     color: rgb(6, 0, 88);
     font-weight: bold;
 }
+p.car{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+}
 
 
 .form-control {
